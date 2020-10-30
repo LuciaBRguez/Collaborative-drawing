@@ -1,0 +1,15 @@
+body {
+    background-color: #fff;
+    margin: 20px;
+    border: 2px solid black;
+    font-family: Verdana;
+}
+
+h1, h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}

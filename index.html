@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collaborative drawing</title>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dibujo colaborativo</h1>
+    <h3>Users online: <label id="numClients"></label><br></h3>
+    <div class="wrapper">
+        <button class="button" id="addCircle">Add Circle</button>
+        <button class="button" id="addRectangle">Add Rectangle</button>
+        <button class="button" id="addTriangle">Add Triangle</button>
+        <button class="button" id="saveCanvas">Save as JSON</button>
+    </div>
+    <canvas id="canvas" height="768" width="1024"></canvas>
+</body>
+</html>
